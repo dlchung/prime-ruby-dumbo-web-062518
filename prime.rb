@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(num)
+  bindings.pry
   for i in 2..num-1 do
     if num <= 1
       return false
